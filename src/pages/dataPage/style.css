@@ -1,0 +1,27 @@
+.toolbar {
+    display: flex;
+    align-items: baseline;
+    min-height: 30px;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.toolbar__btn {
+    border: none;
+    background-color: transparent;
+}
+
+.toolbar__btn:hover {
+    background-color: rgba(1, 1, 1, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.toolbar__btn_type_active {
+    background-color: rgba(14, 104, 50, 0.2);
+    
+}
+
+.page{
+    padding:15px;
+}
