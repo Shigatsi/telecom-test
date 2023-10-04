@@ -35,5 +35,5 @@
         });
     }
 
-    newParent.bind({multiplier: 3})();
+    parent.bind({multiplier: 3})();
 ```
